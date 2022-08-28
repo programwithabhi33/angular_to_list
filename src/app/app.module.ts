@@ -4,15 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TodosComponent } from './myComponent/todos/todos.component';
-import { SecondComponentComponent } from './second-component/second-component.component';
-import { AbhiShekComponent } from './abhi-shek/abhi-shek.component';
+import { SecondComponentComponent } from './myComponent/second-component/second-component.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent,
     TodosComponent,
-    SecondComponentComponent,
-    AbhiShekComponent
+    SecondComponentComponent
   ],
   imports: [
     BrowserModule,
